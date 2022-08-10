@@ -136,7 +136,7 @@ body{
 }
 
 .hero-title {
-		display: block;
+		text-transform: uppercase;
     color: #fff;
     font-weight: 900;
     font-size: 44px;
