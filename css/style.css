@@ -44,7 +44,9 @@ body{
 /* general */
 /* header */
 
-.header {}
+.header {
+    border-bottom:1px solid #ECECEC;;
+}
 
 .main-nav {
 	display: flex;
@@ -236,6 +238,7 @@ display: flex;
 }
 
 .team-item {
+    text-align: center;
 	width: 270px;
 
 	background: #FFFFFF;
@@ -263,6 +266,7 @@ display: flex;
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.2;
+    margin: 0 0 30px 0;
 }
 
 
@@ -323,18 +327,24 @@ display: flex;
 		margin-bottom: 30px;
 }
 
+.portfolio-imag {
+    margin: 0 0 20px 0;
+}
+
 .portfolio-title {
     color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin: 0 0 4px 24px;
 }
 
 .portfolio-text {
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 2;
+    margin: 0 0 20px 24px;
 }
 
 .active{
