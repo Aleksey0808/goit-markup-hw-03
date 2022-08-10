@@ -38,7 +38,7 @@ body{
 }
 
 .section {
-	margin: 0 0 94px 0;
+	padding: 94px 0;
 }
 
 /* general */
@@ -226,7 +226,7 @@ display: flex;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-		margin: 0 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 .team {
@@ -259,7 +259,7 @@ display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-		margin: 0 0 10px 0;
+	margin: 0 0 10px 0;
 }
 
 .team-profession {
@@ -273,7 +273,6 @@ display: flex;
 /* portfolio.html */
 
 .portfolio {
-	margin: 94px 0;
 }
 
 .button-list {
@@ -296,15 +295,15 @@ display: flex;
     background: #F5F4FA;
     border: none;
     cursor: pointer;
-		padding: 6px 22px;
+    padding: 6px 22px;
 }
 
 .button:hover,
 .button:focus {
     color: #fff;
     background: var(--active-color);
-		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-		border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .portfolio-list {
