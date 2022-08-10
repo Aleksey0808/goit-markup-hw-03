@@ -151,7 +151,8 @@ address {
 
 .hero {
 	text-align: center;
-    background: var(--background-color);
+  background: var(--background-color);
+	margin: 0 0 94px 0;
 }
 
 .hero-title {
