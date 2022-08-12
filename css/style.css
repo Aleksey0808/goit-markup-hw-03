@@ -128,39 +128,38 @@ body{
 .hero {
     text-align: center;
     background: var(--background-color);
-		padding: 200px 0;
+	padding: 200px 0;
 }
 
-.hero-block {
-		max-width: 696px;
-}
 
 .hero-title {
-		text-transform: uppercase;
+	text-transform: uppercase;
     color: #fff;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
 
-		margin: 0 0 30px 0;
+	padding: 0 0 30px 0;
+	max-width: 696px;
+	margin: 0 auto;
 }
 
 .hero-button {
-		display: inline-block;
+	display: inline-block;
 
     color: #fff;
     font-weight: 700;
     font-size: 16px;
     line-height: 2;
-		min-width: 216px;
+	min-width: 216px;
 
     cursor: pointer;
-		background: var(--active-color);
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-		border-radius: 4px;
+	background: var(--active-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 
-		padding: 10px 32px;
+	padding: 10px 32px;
 }
 
 .benefits {
@@ -215,6 +214,7 @@ display: flex;
 }
 
 .work-imag {
+	display: inline-block;
 	max-width: 100%;
 	height: auto;
 }
@@ -241,6 +241,7 @@ display: flex;
 .team-title {}
 
 .team-imag {
+	display: inline-block;
 	max-width: 100%;
 	height: auto;
 }
@@ -319,12 +320,13 @@ display: flex;
 }
 
 .portfolio-imag {
+		display: inline-block;
 		max-width: 100%;
 		height: auto;
 }
 
 .portfolio-info {
-		padding: 20px 0 20px 24px;
+		padding: 20px 24px;
 		border-left: 1px solid #EEEEEE;
 		border-right: 1px solid #EEEEEE;
 		border-bottom: 1px solid #EEEEEE;
