@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+img {
+	display: block;
+}
+
 :root{
     --main-color: #212121;
     --secondary-color: #757575;
@@ -74,18 +78,18 @@ body{
 }
 
 .logo-blue{
-    color: var(--active-color);
+  color: var(--active-color);
 }
 
 .menu-logo {
-    color: var(--main-color);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+	color: var(--main-color);
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
 
-		margin: 0 93px 0 0;
+	margin: 0 93px 0 0;
 }
 
 .menu-list {
@@ -103,43 +107,43 @@ body{
 .menu-item {}
 
 .menu-link {
-		display: block;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
+	display: block;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	color: var(--main-color);
 
-		padding: 32px 0;
+	padding: 32px 0;
 }
 
 
 .menu-contacts {
-    color: var(--secondary-color);
-    font-weight: 500;
-    letter-spacing: 0.02em;
+	color: var(--secondary-color);
+	font-weight: 500;
+	letter-spacing: 0.02em;
 
-		padding: 32px 0;
+	padding: 32px 0;
 }
 
 /* index.html */
 
 .hero {
-    text-align: center;
-    background: var(--background-color);
+	text-align: center;
+	background: var(--background-color);
 	padding: 200px 0;
 }
 
 
 .hero-title {
 	text-transform: uppercase;
-    color: #fff;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
+	color: #fff;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	letter-spacing: 0.06em;
 
-	padding: 0 0 30px 0;
+	margin: 0 auto 30px auto;
 	max-width: 696px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 .hero-button {
@@ -216,7 +220,6 @@ display: flex;
 }
 
 .work-imag {
-	display: inline-block;
 	max-width: 100%;
 	height: auto;
 }
@@ -243,7 +246,6 @@ display: flex;
 .team-title {}
 
 .team-imag {
-	display: inline-block;
 	max-width: 100%;
 	height: auto;
 }
@@ -309,7 +311,6 @@ display: flex;
 
 .portfolio-item {
 		width: 370px;
-
 		background: #FFFFFF;
 }
 
@@ -322,7 +323,6 @@ display: flex;
 }
 
 .portfolio-imag {
-		display: inline-block;
 		max-width: 100%;
 		height: auto;
 }
